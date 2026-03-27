@@ -29,21 +29,7 @@ Each image is converted into a numerical vector of size **784** for input into t
 
 ---
 
-## 5. Installation
-
-### Step 1: Clone or Download
-
-
----
-
-## 6. How to Run
-
-Run the complete pipeline: **python.py**
-
-
----
-
-## 7. Workflow
+## 5. Workflow
 
 ### 1. Data Preprocessing
 - Load MNIST dataset  
@@ -74,7 +60,7 @@ Run the complete pipeline: **python.py**
 
 ---
 
-## 8. Model Architecture
+## 6. Model Architecture
 Input (784)
 ↓
 Dense (128, ReLU)
@@ -90,7 +76,7 @@ Dense (10, Softmax)
 
 ---
 
-## 9. Results
+## 7. Results
 - Accuracy: ~97–98%  
 - Stable training and validation curves  
 - Minimal overfitting observed
@@ -108,7 +94,7 @@ Dense (10, Softmax)
 
 ---
 
-## 10. Output Files
+## 8. Output Files
 After running the project:
 outputs/
 ├── loss_curve.png
@@ -118,7 +104,7 @@ outputs/
 
 ---
 
-## 11. Key Concepts Used
+## 9. Key Concepts Used
 - Feedforward Neural Networks  
 - Activation functions (ReLU, Softmax)  
 - Backpropagation  
@@ -128,13 +114,13 @@ outputs/
 
 ---
 
-## 12. Limitations
+## 10. Limitations
 - FNN does not capture spatial relationships in images  
 - Convolutional Neural Networks (CNNs) perform better on image tasks  
 
 ---
 
-## 13. Future Improvements
+## 11. Future Improvements
 - Implement CNN for higher accuracy  
 - Add learning rate scheduling  
 - Perform hyperparameter tuning  
@@ -142,7 +128,7 @@ outputs/
 
 ---
 
-## 14. Conclusion
+## 12. Conclusion
 This project demonstrates how a Feedforward Neural Network can effectively classify image data by converting it into numerical vectors.  
 Despite its simplicity, the model achieves high accuracy and provides a strong baseline for image classification tasks.
 
