@@ -134,7 +134,7 @@ Despite its simplicity, the model achieves high accuracy and provides a strong b
 
 ---
 
-## 15. Author
+## 13. Author
 - Name: Utkarsh Srivastava
 - Course: B.Tech CSE  
 - Project: Feedforward Neural Network Implementation  
