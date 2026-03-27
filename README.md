@@ -93,7 +93,18 @@ Dense (10, Softmax)
 ## 9. Results
 - Accuracy: ~97–98%  
 - Stable training and validation curves  
-- Minimal overfitting observed  
+- Minimal overfitting observed
+## Results Visualization
+
+### Loss Curve
+![Loss](outputs/loss_curve.png)
+
+### Accuracy Curve
+![Accuracy](outputs/accuracy_curve.png)
+
+### Confusion Matrix
+![Confusion Matrix](outputs/confusion_matrix.png)
+
 
 ---
 
