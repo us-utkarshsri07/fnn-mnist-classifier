@@ -76,7 +76,7 @@ The model is built using TensorFlow/Keras and follows a complete machine learnin
 
 ## 6. Model Architecture
 
-![Architecture]()
+![Architecture](model_architecture.png)
 ---
 
 ## 7. Results
