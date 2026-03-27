@@ -108,7 +108,6 @@ Dense (10, Softmax)
 
 ## 8. Output Files
 After running the project:
-|-----------|---------------|
 
 | `outputs/` | loss_curve.png, accuracy_curve.png, confusion_matrix.png |
 
