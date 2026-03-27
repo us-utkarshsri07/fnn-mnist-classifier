@@ -18,9 +18,11 @@ The model is built using TensorFlow/Keras and follows a complete machine learnin
 **MNIST Dataset**
 - 70,000 grayscale images  
 - Image size: 28 × 28  
-- 10 classes (digits 0–9)  
-
-Each image is converted into a numerical vector of size **784** for input into the FNN.
+- 10 classes (digits 0–9)
+   
+> [!IMPORTANT]
+> 
+> Each image is converted into a numerical vector of size **784** for input into the FNN.
 
 ---
 
@@ -73,19 +75,8 @@ Each image is converted into a numerical vector of size **784** for input into t
 ---
 
 ## 6. Model Architecture
-Input (784)
-↓
-Dense (128, ReLU)
-↓
-Dropout (0.3)
-↓
-Dense (64, ReLU)
-↓
-Dropout (0.3)
-↓
-Dense (10, Softmax)
 
-
+![Architecture]()
 ---
 
 ## 7. Results
@@ -144,6 +135,6 @@ Despite its simplicity, the model achieves high accuracy and provides a strong b
 ---
 
 ## 15. Author
-- Name:   
+- Name: Utkarsh Srivastava
 - Course: B.Tech CSE  
 - Project: Feedforward Neural Network Implementation  
