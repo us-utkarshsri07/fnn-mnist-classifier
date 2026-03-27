@@ -26,6 +26,18 @@ Each image is converted into a numerical vector of size **784** for input into t
 
 ## 4. Project Structure
 
+| Folder / File | Purpose |
+|--------------|--------|
+|`fnn_mnist_model.h5/`| Saved trained model weights|
+| `outputs` | Saved predictions, evaluation results, loss_curve |
+| `src/models.py` |Neural network architecture definition |
+| `src/preprocess.py` | Data loading, normalization, encoding |
+| `src/train.py` | Model training and Early stopping |
+| `src/evaluate.py`|Model evaluation and metrics calculation |
+| `src/utils.py`| Plotting loss/accuracy curves and utilities |
+| `main.py` | Entry point to run full pipeline |
+| `README.md` | Project documentation |
+| `.gitignore` | Ignore datasets, models, cache |
 
 ---
 
@@ -96,11 +108,9 @@ Dense (10, Softmax)
 
 ## 8. Output Files
 After running the project:
-outputs/
-├── loss_curve.png
-├── accuracy_curve.png
-├── confusion_matrix.png
+|-----------|---------------|
 
+| `outputs/` | loss_curve.png, accuracy_curve.png, confusion_matrix.png |
 
 ---
 
